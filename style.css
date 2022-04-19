@@ -7,7 +7,7 @@ html{
 
 body{
     /* background-color: #0D0D0D; */
-    background-image: url(./images/2590670.jpg);
+    background-image: url(./images/photo-1509023464722-18d996393ca8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,31 +30,43 @@ nav{
     background-color: #8C878C;
 }
 a{
-    color: #F2D4C2;
+    color: rgb(91, 1, 1);
     font-size: 1.5rem;
     text-decoration: none;
     padding: 1rem;
-    border: 2px solid black;
+    border: 2px solid rgb(91, 1, 1);
     flex-grow: 1;
     text-align: center;
 }
 main{
     display: flex;
     justify-content: space-around;
-    flex-grow: 1;
+    flex-grow: 2;
     background-color: #3E3E40;
-    opacity: 0.7;
+    opacity: 0.8;
     /* background-color: yellow; */
 
 }
 section{
-    margin-top:2rem ;
+    margin:2rem auto;
+    
     text-align: center;
-    flex-basis: 50rem;
+    flex-basis: 60rem;
+    background-color: rgb(91, 1, 1);
+}
+section p{
+    width: 500px;
+    margin: 0 auto;
+    /* padding-top: 2rem; */
 }
 
+section h1{
+    /* padding-top: 2rem; */
+    font-size: 3rem;
+}
 img{
     margin: 2rem;
     width: 200px;
     opacity: 1;
+    border-radius: 5px;
 }
