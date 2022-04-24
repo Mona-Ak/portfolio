@@ -117,6 +117,9 @@ img{
 /* ************favoriet html file**************** */
 
 /* ____________food part___________ */
+.favorHeader{
+    text-align: center;
+}
 .favorMain{
     text-align: center;
 }
