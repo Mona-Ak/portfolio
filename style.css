@@ -109,3 +109,48 @@ img{
 .photoHeader a:hover{
     background-color: white;
 }
+
+/* ************favoriet html file**************** */
+.favorMain{
+    text-align: center;
+}
+.favorFood{
+    display: flex;
+    background: none;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    flex-basis: 100%;
+    
+}
+.art{
+    background-color: #590d0d;
+    margin: 1rem;
+    height: 350px;
+    overflow: hidden;
+}
+.art:hover{
+    transition: 2s;
+    height: 520px;
+}
+.art h2{
+    margin-top:0;
+}
+
+.favorFood img{
+    width: 300px;
+    height: 300px;
+}
+
+.favorFood img:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+.favorFood p{
+    width: 300px;
+}
+
+
+
+
+
+
