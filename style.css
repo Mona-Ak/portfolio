@@ -99,6 +99,10 @@ img{
     list-style-type: none;
     padding: 0.3rem;
 }
+.photoHeader nav a{
+    border: none;
+    border-radius: 0;
+}
 
 .photoHeader a{
     border: 2px solid black;
