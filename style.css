@@ -69,6 +69,7 @@ img{
     width: 200px;
     opacity: 1;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 /* ***********photo html file******** */
@@ -79,15 +80,29 @@ img{
 
 .photoSection{
     /* background-color: yellow; */
-    display: flex;
     overflow: hidden;
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+div{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    animation: photoSlide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes photoSlide{
+   from{transform:translate(0);}
+   to{transform: translate(-100%);}
 }
 
 .photoHeader img{
-    width: 350px;
+    width: 20%;
 }
 
 .photoHeader ul{
@@ -122,13 +137,14 @@ img{
 }
 .favorMain{
     text-align: center;
+    background-color: rgba(140, 135, 140, 0.3);
 }
 .favorFood{
     display: flex;
     background: none;
     flex-wrap: wrap;
     flex-basis: 100%;
-    
+    justify-content: center;
 }
 .art{
     background-color: #590d0d;
@@ -163,6 +179,7 @@ img{
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sport{
     background-color: #590d0d;
@@ -181,6 +198,7 @@ img{
 .favorSport img{
     width: 300px;
     height: 300px;
+
 }
 .favorSport img:hover{
     transition: 2s;
@@ -198,6 +216,7 @@ img{
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .animal{
     background-color: #590d0d;
