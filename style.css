@@ -241,6 +241,35 @@ div{
     width: 300px;
 }
 
+/* project */
+
+.projectMain{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+background-color:rgba(140, 135, 140,0.3) ;
+}
+
+.todoArticle, .ninjaQuizArticle{
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #590d0d;
+    border-radius: 5px;
+}
+.todoArticle a, .ninjaQuizArticle a{
+    text-decoration: none;
+    color: #F2D4C2;
+    /* background-color: #3E3E40; */
+}
+
+.todoArticle img, .ninjaQuizArticle img{
+    width: 400px;
+}
+.todoArticle a:hover, .ninjaQuizArticle a:hover{
+    background-color: #590d0d;
+}
 
 
 
